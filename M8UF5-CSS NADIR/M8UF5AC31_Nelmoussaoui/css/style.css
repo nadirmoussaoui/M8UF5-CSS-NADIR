@@ -1,0 +1,105 @@
+.titulo{
+    text-align: center;
+    height: 30px;
+    
+}
+.header{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.767);
+    text-decoration: none;
+    text-align: center;  
+    height: 45px;
+    font-size: 20px;
+}
+.menu > li{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    border-left: 1px solid black;
+    
+}
+.cont{
+    border-right: 1px solid black;
+}
+.menu > li > a{
+    display: block;
+    padding: 15px;
+    color: rgba(255, 255, 255, 0.74);
+    text-decoration: none;   
+    border-radius: 25%;
+    margin-right:30px;
+    
+}
+.contenedor {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-top: 0%;
+    
+}
+.noi{
+    align-items: center;   
+    width: 1503px;
+    height: 450px;
+    
+}
+.titul{
+    color: rgba(65, 65, 253, 0.664);
+    text-align: center;
+    
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 30px;
+}
+.grid-item {
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-style:italic;
+   
+}
+#noia-img{
+    width: 360px;
+    height: 220px;
+}
+#hotel-img{
+    width: 360px;
+    height: 220px;
+}
+#postasol-img{
+    width: 360px;
+    height: 220px;
+}
+.text{
+    text-align: center;
+    font-style: normal;
+}
+.container{
+    justify-content: center;
+    flex-direction: column;
+    height: 100;
+}
+.final{
+    text-align: center;
+}
+.final a {
+    margin: 20px;
+    padding: 8px 12px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color:rgb(26, 24, 24);
+    border-radius: 10px;
+}
+hr{
+    margin-top: 20px;
+}
+.grid-peu{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        text-align: center;
+}
+  

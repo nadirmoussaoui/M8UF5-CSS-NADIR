@@ -1,0 +1,57 @@
+body {
+    background-image:url(../img/IMAGEN.png) ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+table {
+    width: 70%;
+}
+
+body {
+    font-style:initial;
+    font-size: large;
+}
+p:hover {
+    background-color: grey;
+}
+.un {
+    background-color: yellow;     
+} 
+.subrayado {
+    text-decoration:underline;
+}
+.subrayadoarriba {
+    text-decoration: overline;
+}
+.negrita {
+    font-weight: bold;
+}
+.dos {
+    background-color: #FFC300;
+} 
+.tres {
+    background-color: #FF6333;
+} 
+.cuatre {
+    background-color: #FF5033;
+} 
+.cinc {
+    background-color: #FF3333;
+} 
+.sis {
+    background-color: #8A4646;
+} 
+.set {
+    background-color: #9D6060;
+} 
+.vuit {
+    background-color: #DB4F4F;
+} 
+.nou {
+    background-color: #A04000;
+} 
+.deu {
+    background-color: #DB4F7B;
+} 
+

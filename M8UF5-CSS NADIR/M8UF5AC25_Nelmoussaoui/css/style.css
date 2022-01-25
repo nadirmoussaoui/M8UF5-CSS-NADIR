@@ -1,0 +1,27 @@
+#header {
+    background-color: red;
+	height: 800%;
+    width: 100%
+}
+
+#aside {
+    background-color:green;
+	height: 350px;
+	width: 200px;
+    float: left;
+}
+#nav {
+	background-color: lightseagreen;
+	height: 80px;
+	
+} 
+#article {
+	background-color: yellow;
+	height: 270px;
+    display: flex;
+} 
+footer { 
+	background-color: rgb(105, 91, 105);
+    height: 50px;
+}
+

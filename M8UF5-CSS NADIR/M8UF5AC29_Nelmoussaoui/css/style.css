@@ -1,0 +1,117 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: white;
+  padding: 5px;
+  
+}
+.grid-item {
+  background-color: rgba(190, 60, 60, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+.dia{
+  background-color:rgb(197, 188, 188)
+}
+#m8{
+  grid-column: 3;
+  grid-row: 2  / span 2;
+ 
+}
+#m8dos{
+  grid-column: 6;
+  grid-row: 2  / span 2;
+ 
+}
+#m8tres{
+  grid-column: 4;
+  grid-row: 6 / span 2;
+}
+#m8-img {
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  
+}
+#m6 {
+  grid-column: 2;
+  grid-row: 3 / span 2;
+  
+}
+#m6dos{
+  grid-column: 3;
+  grid-row: 6 / span 2;
+ 
+}
+#m6-img {
+  width: 100px;
+  height: 100px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+  
+  
+}
+#m11-img {
+  width: 100px;
+  height: 70px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+ 
+}
+#m10 {
+  grid-column: 5;
+  grid-row: 3 / span 2;
+ 
+}
+#m10-img {
+  width: 100px;
+  height: 70px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+}
+#tut-img {
+  width: 120px;
+  height: 90px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.pati {
+  font-size: 30px;
+  grid-column: 2 / span 5;
+  grid-row: 5;
+}
+#m7-img {
+  width: 120px;
+  height: 100px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+}
+#m6-img {
+  width: 120px;
+  height: 100px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+   bgcolor: 87d1d1
+}
+#m7 {
+  grid-column: 2;
+  grid-row: 6 / span 3;
+  
+}
+#m6dos {
+  grid-column: 5;
+  grid-row: 6 / span 3;
+  
+
+}
+.final {
+  grid-column: 6;
+  grid-row: 7 / span 2;
+}
+  

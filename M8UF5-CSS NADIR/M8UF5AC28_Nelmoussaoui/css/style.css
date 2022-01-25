@@ -1,0 +1,118 @@
+body{
+    text-align: center;
+}
+
+
+#un{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    border: 1px solid green;
+}
+#dos{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    border: 1px solid green;
+}
+#tres{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    border: 1px solid green;
+}
+#cuatre{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    border: 1px solid green;
+}
+#cinc{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    border: 1px solid green;
+}
+#sis{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    border: 1px solid green;
+}
+#set{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    border: 1px solid green;
+}
+#vuit{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    border: 1px solid green;
+}
+#nou{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    border: 1px solid green;
+}
+#deu{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    border: 1px solid green;
+}
+#onze{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    border: 1px solid green;
+}
+#dotze{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    border: 1px solid green;
+}
+.verdeuno {
+  
+    border: 5px solid rgb(99, 224, 99);
+}
+.verde {
+    
+    border: 2px dashed green;
+}
+.lila {
+    
+    border: 2px dashed rgb(63, 10, 112);
+}
+.rojo {
+    
+    border: 2px dashed red;
+}
+.rojouno {
+   
+    border: 5px solid red;
+}
+#cointain li {
+    list-style: none;
+    text-align: left;
+}
+#cointain li p {
+    margin: 2px;
+}
+
+

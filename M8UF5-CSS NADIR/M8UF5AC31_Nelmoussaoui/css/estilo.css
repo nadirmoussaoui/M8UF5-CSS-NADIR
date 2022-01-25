@@ -1,0 +1,89 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+#content{
+    width: 400px;
+    height: 280px;
+    display: block;
+    margin: auto;
+    margin-top: 20%;
+    }
+#un img{
+    width: 200px;
+    height: 70px;
+}
+#dos img{
+    width: 200px;
+    height: 70px;
+    background-color: blue;
+}
+#tres img{
+    width: 100px;
+    height: 140px;
+    background-color:yellow;
+    float: left;
+}    
+#cuatre img{
+    width: 100px;
+    height: 70px;
+    background-color: rgb(65, 10, 65);
+}
+#cinc img{
+    width: 200px;
+    height: 70px;
+    background-color: darkblue;
+}
+#sis img{
+    width: 100px;
+    height: 70px;
+    background-color: rgb(202, 74, 153);
+}
+#set img{
+    width: 100px;
+    height: 70px;
+    background-color: yellow;
+}
+#vuit img{
+    width: 100px;
+    height: 70px;
+    background-color: white;
+}
+#nou img{
+    width: 100px;
+    height: 70px;
+    background-color: rgb(157, 132, 214);
+}
+#deu img{
+    width: 100px;
+    height: 70px;
+    background-color: rgb(100, 47, 17);
+}
+#onze img{
+    width: 100px;
+    height: 70px;
+    background-color: red;
+}
+#dotze img{
+    width: 100px;
+    height: 70px;
+    background-color: rgb(110, 12, 12);
+}
+#row {
+    display: flex;
+    flex-direction: row;
+}
+#row2 {
+    display: flex;
+    flex-direction: row;
+}
+#row3 {
+    display: flex;
+    flex-direction: row;
+}
+#row4 {
+    display: flex;
+    flex-direction: row;
+    float: left;
+}

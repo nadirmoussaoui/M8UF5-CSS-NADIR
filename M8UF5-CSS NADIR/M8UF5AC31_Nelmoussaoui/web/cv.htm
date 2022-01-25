@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="cat">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulari 1 d'enregistrament</title>
+</head>
+<body>
+    <h1>Formulari 1 d'enregistrament</h1> 
+    <form action="../form-result.php" target="_blank">
+        <p>
+             NOM: <input type="text" name="NOM" maxlength="50">
+        </p>
+        
+        <p>
+            COGNOM: <input type="text" name="COGNOM"maxlength="50">
+        </p>
+        SEXE:
+        <input type="radio" name="SEXE" value="H" /> HOME
+        <input type="radio" name="SEXE" value="M" /> DONA
+      </p>
+        </p>
+        CORREU ELECTRÒNIC <input type="text" name="CORREU ELECTRÒNIC"></p>
+        <input type="checkbox" name="Vull rebre informació sobre novetats i ofertes"> Vull rebre informació sobre novetats i ofertes<br>
+
+        <input type="checkbox" name="Declaro" checked> Declaro haver llegit i acceptar les
+        condicions generals del programa i la normativa sobre protecció de dades indicada
+        al RGPD</p>
+        <form method="get" action=""></form>
+        <input type="submit" value="Enviar"/>
+        </p>
+        POBLACIÓ:
+        <select name="OS">
+            <option value="1">Arbúcles</option> 
+            <option value="2">Badalona</option> 
+            <option value="3">Barcelona</option>
+            <option value="10">Girona</option> 
+            <option value="11">Vilassar de Mar</option> 
+         </select> </p>
+         DESCRIPCIÓ <p>
+            <textarea id="missatge" name="missatge" rows="7" cols="30"></textarea></p>
+         <input type="button" value="Enviar">    
+</body>
+</html>

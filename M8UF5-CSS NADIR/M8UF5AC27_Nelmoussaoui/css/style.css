@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+  }
+  html, body {
+    height: 100%;
+  }
+  .wrapper {
+    min-height: calc(100% - 4rem);
+  }
+  .footer {
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 4rem;
+    width: 100%;
+    background-color: rgb(14, 61, 83);
+    color: white;
+  }

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="cat">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulari d’enviament</title>
+</head>
+<script type="text/javascript">
+    function validar(){
+    var psswd=document.getElementById("psswd").value;
+    var confpsswd=document.getElementById("confpsswd").value;
+    if(psswd==confpsswd){
+    return true;
+    }
+    else{
+    alert("No coincideix");
+    return false;
+    }
+    }
+    </script>
+<body style=font-family:Verdana;></body>
+  <table align="center"bgcolor= EFEFEF>
+      <tr align="left">
+        <th bgcolor="306090">Enviar misstage<img src="../img/gb_reload_s.gif" alt="gif" align="right"></h2></td></th>
+    </tr>
+    <form style="font-family: Verdana;" align="center" method="GET" action="mailto:nadirelmoussaoui6@gmail.com" onsubmit="return validar();">
+    <tr align="left">
+    <td bgcolor="EFEFEF">Nom: <input type="text" name="NOM"></td> 
+    </tr>
+    <tr align="left">
+    <td align="left"><label>Usuari:<input type="text" id="USUARI:" maxlength="10" required></label></td>
+    </tr>
+    <tr align="left">
+    <td align="left"><label>Numero Telefon:<input type="text" maxlength="10"required></label></td>
+    </tr>
+    <tr align="left">
+    <td bgcolor="EFEFEF">E-Mail:<input type="text" name="E-Mail"></td>
+    </tr>
+        <td align="center">
+        Quantes persones sou?
+            <tr>
+                <td><input type="checkbox" name="platja" id="check">1 perosna</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="HOTEL" id="check">2 perosnas</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="HOTEL" id="check">3 perosnas</td>
+            </tr>
+                <td><input type="checkbox" name="HOTEL" id="check">4 perosnas</td>
+            <tr>
+        <tr align="center">
+        <td bgcolor="EFEFEF">
+       <strong>Missatge <br></strong> <textarea id="missatge" name="missatge" rows="8" cols="50"></textarea>
+       <tr align="center">
+        <td align="center"><label><input form method="get" action="" type="submit" value="Enviar"><input type="reset" value="Borrar" /></label></td>
+
+
+        
+        
+</body>
+</html>
