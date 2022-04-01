@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="cat">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulari d’enviament</title>
+</head>
+<script type="text/javascript">
+    function validar(){
+    var psswd=document.getElementById("psswd").value;
+    var confpsswd=document.getElementById("confpsswd").value;
+    if(psswd==confpsswd){
+    return true;
+    }
+    else{
+    alert("No coincideix");
+    return false;
+    }
+    }
+    </script>
+<body style=font-family:Verdana;></body>
+  <table align="center"bgcolor= EFEFEF>
+      <tr align="left">
+        <th bgcolor="306090">Enviar misstage<img src="./img/gb_reload_s.gif" alt="gif" align="right"></h2></td></th>
+    </tr>
+    <form style="font-family: Verdana;" align="center" method="GET" action="mailto:nadirelmoussaoui6@gmail.com" onsubmit="return validar();">
+    <tr align="left">
+    <td bgcolor="EFEFEF">Nom: <input type="text" name="NOM"></td> 
+    </tr>
+    <tr align="left">
+    <td align="left"><label>Usuari:<input type="text" id="USUARI:" maxlength="8" required></label></td>
+    </tr>
+    <tr align="left">
+    <td align="left"><label>Contrasenya:<input type="password" id="psswd" required></label></td>
+    </tr>
+    <tr align="left">
+    <td align="left">Repetició de la contrasenya:<input type="password" id="confpsswd" required></td>
+    </tr>
+    <tr align="left">
+    <td bgcolor="EFEFEF">E-Mail:<input type="text" name="E-Mail"></td>
+    </tr>
+    <tr align="left">
+    <td bgcolor="EFEFEF">Arxiu:<input type="text" name="Arxiu"><input type="file"></td>
+    </tr>
+    <tr align="left">
+   <td bgcolor="EFEFEF">Imatge:<input type="text" name="NOM"><input type="file"><br></td>
+    </tr>
+        <tr align="center">
+        <td bgcolor="EFEFEF"><h5>Tamany de l´arxiu i la imatge no pot exedir els 4 KBytes</h5></td>
+        </tr>
+        <tr align="center">
+        <td bgcolor="EFEFEF">
+        Requeriex resposta: <input type="radio" name="Resposta" value="SI" /> SI <input type="radio" name="Resposta" value="NO" /> NO </td>
+        </tr>
+        <td align="center">
+        Quins jocs t'interessen?
+            <tr>
+                <td><input type="checkbox" name="FIFA 22" id="check">FIFA 22</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="Fortnite" id="check">Fortnite</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="Minecraft" id="check">Minecraft</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="Clash Royale" id="check">Clash Royale</td>
+            </tr>
+        <tr align="center">
+        <td bgcolor="EFEFEF">
+       <strong>Missatge <br></strong> <textarea id="missatge" name="missatge" rows="8" cols="50"></textarea>
+       <tr align="center">
+        <td align="center"><label><input form method="get" action="" type="submit" value="Enviar"><input type="reset" value="Borrar" /></label></td>
+
+
+        
+        
+</body>
+</html>
